@@ -1,9 +1,9 @@
 # encoding: utf-8
 $:.push File.expand_path("../lib", __FILE__)
-require "tinymce-rails-imageupload/version"
+require "tinymce-docupload/version"
 
 Gem::Specification.new do |s|
-  s.name        = "tinymce-rails-imageupload"
+  s.name        = "tinymce-docupload"
   s.version     = Tinymce::Rails::Docupload::VERSION
   s.authors     = ["Sean Marcia"]
   s.email       = ["smarcia@gmail.com"]
