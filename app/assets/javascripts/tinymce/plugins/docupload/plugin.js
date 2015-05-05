@@ -231,21 +231,21 @@
       }
 
       // Add a button that opens a window
-      editor.addButton('uploaddoc', {
+      editor.addButton('docupload', {
         tooltip: ed.translate('Insert a document from your computer'),
-        icon : 'file-text',
+        icon : 'paste',
         onclick: showDialog
       });
 
       // Adds a menu item to the tools menu
-      editor.addMenuItem('uploaddoc', {
+      editor.addMenuItem('docupload', {
         text: ed.translate('Insert a document from your computer'),
-        icon : 'file-text',
+        icon : 'paste',
         context: 'insert',
         onclick: showDialog
       });
     }
   });
 
-  tinymce.PluginManager.add('uploaddoc', tinymce.plugins.UploadDoc);
+  tinymce.PluginManager.add('docupload', tinymce.plugins.DocUpload);
 })();
