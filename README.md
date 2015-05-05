@@ -1,0 +1,1 @@
+Document uploader for rails and tinymce.
